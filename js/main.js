@@ -259,7 +259,7 @@
 		      error: function() {
 
 		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Mail server currently busy.Please reach out at the given mail directly");
+		      	$('#message-warning').html("Mail server is currently busy. Please reach out at the given mail directly.");
 		         $('#message-warning').fadeIn();
 
 		      }
